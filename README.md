@@ -100,16 +100,40 @@ Side View of the Deployment System Sequence.
 Frontal View of the Deployment System Sequence
 </p>
 
+### Components
+
 ### Plans and dimensions
-![Main Render](DC-Plano%20Autogiro.jpg)
-![Main Render](DC-Plano%20Mecanismo%20de%20despliegue.jpg)
+<p align="center">
+  <img src="DC-PLano%20despliegue.jpg" width="600"/>
+</p>
+
+<p align="center">
+Plane 1
+</p>
+
+<p align="center">
+  <img src="DC-Plano%20Autogiro.jpg" width="600"/>
+</p>
+
+<p align="center">
+Plane 2
+</p>
+
+<p align="center">
+  <img src="DC-Plano%20Mecanismo%20de%20despliegue.jpg" width="600"/>
+</p>
+
+<p align="center">
+Plane 3
+</p>
 
 
-## Main Assembly
+## External structure
 
-
+## Water and seeds container
 
 ## Internal Subsystem Integration
+
 # Manufacturing Process
 
 
