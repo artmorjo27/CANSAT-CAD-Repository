@@ -17,4 +17,3 @@ Tools used:
 - Additive Manufacturing 3D printing
 - SolidWorks Simulation
 - Laser cutting
-- 
