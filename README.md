@@ -72,8 +72,6 @@ The final design balanced manufacturability, structural rigidity, payload surviv
 # CAD Development
 In the first stage of the project, an initial solution concept was developed. For this purpose, springs were proposed as a damping system, along with a storage capsule for both the egg and the water. However, this solution was not optimal because the electronics system and the autorotation system could not fit within the specified dimensions.
 
-## Structural Assembly
-
 ## Deployable Mechanism
 <p align="center">
   <img src="DC-Despliegue.jpg" width="600"/>
@@ -101,6 +99,21 @@ Frontal View of the Deployment System Sequence
 </p>
 
 ### Components
+<p align="center">
+  <img src="C1.jpg" width="600"/>
+</p>
+
+<p align="center">
+Componentes 1
+</p>
+
+<p align="center">
+  <img src="C2.jpg" width="600"/>
+</p>
+
+<p align="center">
+Componentes 2
+</p>
 
 ### Plans and dimensions
 <p align="center">
@@ -129,10 +142,59 @@ Plane 3
 
 
 ## External structure
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="Externa1.jpg" width="400"/><br>
+      <b>Main Assembly</b>
+    </td>
+    <td align="center">
+      <img src="Externa2.jpg" width="400"/><br>
+      <b>Deployment Mechanism</b>
+    </td>
+  </tr>
+</table>
+
+## Internal structure
+<p align="center">
+  <img src="DC-Estructura%20interna.jpg" width="600"/>
+</p>
+
+<p align="center">
+Plane 3
+</p>
+
+<p align="center">
+  <img src="Interno.jpg" width="400"/>
+</p>
+
+<p align="center">
+Plane 3
+</p>
 
 ## Water and seeds container
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="DC-Capsula.jpg" width="400"/><br>
+      <b>Main Assembly</b>
+    </td>
+    <td align="center">
+      <img src="DC-Contenedor.jpg" width="400"/><br>
+      <b>Deployment Mechanism</b>
+    </td>
+  </tr>
+</table>
+
 
 ## Internal Subsystem Integration
+<p align="center">
+Plane 1
+</p>
+
+<p align="center">
+  <img src="Int1.jpg" width="400"/>
+</p>
 
 # Manufacturing Process
 
