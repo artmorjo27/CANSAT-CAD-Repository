@@ -3,6 +3,8 @@ Mechanical design repository for a competitive CANSAT developed for internationa
 
 The repository includes CAD models, structural assemblies, manufacturing-oriented designs, and engineering iterations developed using SolidWorks. The system was optimized for reduced weight, manufacturability, and reliable deployment performance during launch and landing conditions.
 
+![Main Render](DC-Despliegue.jpg)
+
 Key features:
 - Lightweight aerospace-inspired structural design
 - Deployable fin and payload mechanisms (autogyro system)
