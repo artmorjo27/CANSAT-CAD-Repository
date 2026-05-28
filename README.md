@@ -72,6 +72,16 @@ The final design balanced manufacturability, structural rigidity, payload surviv
 # CAD Development
 In the first stage of the project, an initial solution concept was developed. For this purpose, springs were proposed as a damping system, along with a storage capsule for both the egg and the water. However, this solution was not optimal because the electronics system and the autorotation system could not fit within the specified dimensions.
 
+<p align="center">
+  <img src="Concepto1.jpg" width="400"/>
+</p>
+
+<p align="center">
+First concept.
+</p>
+
+
+
 ## Deployable Mechanism
 The deployment mechanism used in this project consists of an autorotation system. Its purpose is to decelerate the fall of the CanSat by acting as a passive descent system. Instead of using a conventional parachute, it employs a free-spinning rotor. During descent, the airflow forces the blades to rotate (autorotation), generating drag and lift, which enables a controlled, safe, and precise landing of the device.
 
@@ -126,7 +136,7 @@ Componentes 1
 Componentes 2
 </p>
 
-### Plans and dimensions
+### Drawings and dimensions
 This drawing shows the dimensions of the CanSat when the autorotation system is deployed. During the course of the competition, these drawings were developed to ensure that the device complied with the dimensional restrictions.
 
 <p align="center">
@@ -160,6 +170,14 @@ Dimensions and Configuration of the Deployment Mechanism
 ## External Structure Evolution
 The initial structural concept utilized a compact fixed-body configuration designed primarily for subsystem protection and internal packaging. However, as the project evolved, the integration of the passive autogyro descent system introduced major spatial and mechanical challenges associated with storing the airfoil profiles within the maximum allowable CanSat dimensions.
 
+<p align="center">
+  <img src="Carcasa.jpg" width="400"/>
+</p>
+
+<p align="center">
+First concept external structure.
+</p>
+
 The external structure evolved significantly throughout the development process in order to satisfy the dimensional constraints established by the PEU World CanSat 2025 competition while maintaining a lightweight and manufacturable architecture.
 
 To address these constraints, the final structural design implemented a deployable external architecture that allowed the airfoil profiles to remain folded during launch and deployment operations. This solution enabled compliance with competition dimensional regulations while significantly improving aerodynamic deployment capabilities during descent.
@@ -192,38 +210,129 @@ while maintaining a final system mass below the competition threshold.
 </table>
 
 ## Internal structure
+The internal architecture of the CanSat underwent multiple design iterations focused on improving subsystem integration, manufacturability, and structural efficiency while minimizing overall system mass.
+
 <p align="center">
   <img src="DC-Estructura%20interna.jpg" width="600"/>
 </p>
 
 <p align="center">
-Plane 3
+First internal configuration. 
 </p>
+
+The initial internal structure utilized a traditional multi-platform configuration supported by vertical rods and fixed mounting interfaces. While this approach provided adequate structural support during early development stages, it introduced additional material usage, increased assembly complexity, and limited accessibility during subsystem integration.
+
+As the design evolved, the internal structure was redesigned using integrated rail-based supports directly embedded into the external panels. This new configuration allowed the internal electronic floors to be installed and removed through a simple sliding mechanism, significantly simplifying assembly operations and maintenance procedures.
+
+To implement this solution, precision mounting holes and lightweight guide rails were incorporated into the structural side panels. This redesign reduced the need for additional support hardware and minimized the quantity of internal structural members.
+
+The updated architecture provided several engineering advantages:
+- Reduced structural mass
+- Simplified subsystem installation
+- Improved manufacturability
+- Increased internal accessibility
+- Reduced part count
+- Enhanced structural organization
+
+Additionally, the redesign optimized the internal volume distribution to accommodate:
+- Telemetry electronics
+- Power systems
+- Sensor modules
+- Payload protection components
+- The deployable autogyro mechanism
+
+The final internal structure achieved a balance between lightweight construction, modular integration, and mechanical rigidity while maintaining compliance with competition dimensional constraints.
 
 <p align="center">
   <img src="Interno.jpg" width="400"/>
 </p>
 
 <p align="center">
-Plane 3
+Final intern structure.
 </p>
 
 ## Water and seeds container
+The seed and water payload containers were designed according to the storage capacities established in the PEU World CanSat 2025 competition requirements. The mission constraints required the system to transport:
+- 15 cm³ of endemic seeds
+- 100 mL of water
+
+For the seed payload, a 20 cm³ threaded aluminum container was selected due to its lightweight properties, manufacturability, and impact resistance characteristics. One of the main advantages of this material selection was the ductility and deformation capability provided by the aluminum structure.During the competition landing sequence, the container experienced visible plastic deformation as a result of the impact forces generated during touchdown. However, despite the structural deformation, the threaded sealing system successfully prevented seed leakage, preserving payload integrity throughout the mission.
+
+This result validated the container selection strategy by demonstrating an effective balance between:
+- Lightweight construction
+- Mechanical resilience
+- Payload protection
+- Manufacturability
+- Reliable sealing performance under landing impact conditions
+
 <table align="center">
   <tr>
     <td align="center">
       <img src="DC-Capsula.jpg" width="400"/><br>
-      <b>Main Assembly</b>
+      <b>Egg container</b>
     </td>
     <td align="center">
       <img src="DC-Contenedor.jpg" width="400"/><br>
-      <b>Deployment Mechanism</b>
+      <b>Water container</b>
     </td>
   </tr>
 </table>
+The water payload container was developed to satisfy the competition requirement of transporting 100 mL of water while simultaneously contributing to the impact protection strategy of the biological payload.
 
+A transparent 3/8" PVC hose was selected as the primary containment element due to its flexibility, lightweight characteristics, and ease of integration within the constrained internal volume of the CanSat.
 
-## Internal Subsystem Integration
+To determine the required hose length, the internal volume was calculated as a function of the hose diameter in order to obtain the necessary capacity for storing the mandated 100 mL of water payload. Once the required length was determined, the hose was coiled around the internal structure of the CanSat.
+
+This configuration provided multiple engineering advantages:
+- Efficient internal volume utilization
+- Lightweight water storage solution
+- Simplified manufacturability
+- Flexible subsystem integration
+
+Additionally, the coiled hose configuration functioned as a passive impact absorption system surrounding the egg payload. During landing, the flexible PVC structure helped dissipate part of the impact energy, contributing both as:
+- The water storage system
+- A protective damping mechanism for the biological payload
+
+This multifunctional design approach improved payload survivability while minimizing the need for additional protective structures and reducing overall system mass.
+
+## System Integration
+The final CanSat configuration represents the integration of multiple mechanical, electronic, and payload subsystems developed under strict dimensional, mass, and operational constraints established by the PEU World CanSat 2025 competition.
+
+A major focus of the integration process was the implementation of the passive autogyro descent mechanism within the limited internal volume of the CanSat platform. The deployable airfoil system was successfully integrated into the redesigned external structure, allowing the rotor blades to remain fully contained during launch operations while enabling reliable deployment during descent.
+
+To support this mechanism, both the internal and external structures underwent significant redesign iterations focused on:
+- Lightweight optimization
+- Internal volume efficiency
+- Structural rigidity
+- Manufacturability
+- Deployment reliability
+
+The updated external architecture incorporated integrated guide systems and deployable supports for the autogyro mechanism, while the redesigned internal structure implemented modular sliding rails for simplified subsystem installation and maintenance.
+
+The electronic subsystem integration included:
+- Telemetry transmission systems
+- Environmental sensing modules
+- Power distribution components
+- Microcontroller-based control systems
+- Payload monitoring electronics
+
+Special attention was dedicated to internal subsystem organization in order to optimize wiring distribution, center of mass positioning, and accessibility during assembly operations.
+
+Additionally, the payload containers for both the water and seed storage systems were integrated as multifunctional structural elements within the CanSat architecture. The coiled PVC water container contributed as both:
+- The required water payload storage system
+- A passive damping mechanism for egg protection during landing
+
+while the aluminum seed container provided lightweight and impact-resistant payload protection under landing conditions.
+
+The final integrated system achieved a balance between:
+- Mechanical performance
+- Payload survivability
+- Structural efficiency
+- Aerodynamic deployment capability
+- Manufacturability
+- Competition compliance
+
+Resulting in a fully functional aerospace platform capable of completing the mission requirements under real operational conditions.
 <p align="center">
 Plane 1
 </p>
@@ -233,6 +342,21 @@ Plane 1
 </p>
 
 # Manufacturing Process
+<p align="center">
+  <img src="Autogiro.jpg" width="400"/>
+</p>
 
+<p align="center">
+Manufacturing autorotation components.
+</p>
+
+<p align="center">
+  <img src="Corte%20laser.jpg" width="400"/>
+</p>
+
+<p align="center">
+Manufacturing first external structure concept.
+</p>
+ 
 
 
