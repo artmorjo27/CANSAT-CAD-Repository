@@ -73,6 +73,10 @@ The final design balanced manufacturability, structural rigidity, payload surviv
 In the first stage of the project, an initial solution concept was developed. For this purpose, springs were proposed as a damping system, along with a storage capsule for both the egg and the water. However, this solution was not optimal because the electronics system and the autorotation system could not fit within the specified dimensions.
 
 ## Deployable Mechanism
+The deployment mechanism used in this project consists of an autorotation system. Its purpose is to decelerate the fall of the CanSat by acting as a passive descent system. Instead of using a conventional parachute, it employs a free-spinning rotor. During descent, the airflow forces the blades to rotate (autorotation), generating drag and lift, which enables a controlled, safe, and precise landing of the device.
+
+This image presents the initial prototype of the CanSat and the autorotation system during the deployment phase. The following section aims to show the mechanism and the deployment sequence of the passive deceleration system in greater detail.
+
 <p align="center">
   <img src="DC-Despliegue.jpg" width="600"/>
 </p>
@@ -80,6 +84,8 @@ In the first stage of the project, an initial solution concept was developed. Fo
 <p align="center">
 CanSat with Autorotation System Deployment.
 </p>
+
+In this sequence, it can be observed that the deployment system is composed of a shaft (manufactured using 3D printing) which, in its retracted position, is held in place by an SG90 servomotor. When the CanSat computer, together with the barometer, detects an altitude of 100 m, the servomotor is activated and releases the shaft, causing the compression spring to expand and deploy the autorotation system.
 
 <p align="center">
   <img src="DC-Secuencia%201.jpg" width="600"/>
@@ -89,6 +95,9 @@ CanSat with Autorotation System Deployment.
 Side View of the Deployment System Sequence.
 </p>
 
+The deployment sequence of the autorotation system can be observed at each stage: when the spring is fully compressed, when the spring pushes the system shaft, and finally when the shaft is completely released.
+
+To ensure that the shaft does not experience unintended displacement or rotations caused by vibrations, lateral rails were designed on the shaft and integrated with the levels and structure of the CanSat, ensuring the proper deployment of the autorotation system.
 
 <p align="center">
   <img src="DC-Secuencia%202.jpg" width="600"/>
@@ -99,6 +108,8 @@ Frontal View of the Deployment System Sequence
 </p>
 
 ### Components
+The components that make up the autorotation system consist of a main disc to which a high-speed bearing is coupled. Together with the shaft, these are the main elements responsible for providing rotational movement. Additionally, the joints responsible for holding the airfoil profiles were designed. These components were manufactured using additive manufacturing (3D printing).
+
 <p align="center">
   <img src="C1.jpg" width="600"/>
 </p>
@@ -116,12 +127,14 @@ Componentes 2
 </p>
 
 ### Plans and dimensions
+This drawing shows the dimensions of the CanSat when the autorotation system is deployed. During the course of the competition, these drawings were developed to ensure that the device complied with the dimensional restrictions.
+
 <p align="center">
   <img src="DC-PLano%20despliegue.jpg" width="600"/>
 </p>
 
 <p align="center">
-Plane 1
+Dimensions of the CanSat with the Autorotation System Deployed
 </p>
 
 <p align="center">
@@ -129,19 +142,42 @@ Plane 1
 </p>
 
 <p align="center">
-Plane 2
+Dimensions of the Autorotation System
 </p>
+
+This drawing shows the dimensions of the deployment system, as well as the configuration of the servomotor, the shaft, and the disc.
 
 <p align="center">
   <img src="DC-Plano%20Mecanismo%20de%20despliegue.jpg" width="600"/>
 </p>
 
 <p align="center">
-Plane 3
+Dimensions and Configuration of the Deployment Mechanism
 </p>
 
 
 ## External structure
+## External Structure Evolution
+The initial structural concept utilized a compact fixed-body configuration designed primarily for subsystem protection and internal packaging. However, as the project evolved, the integration of the passive autogyro descent system introduced major spatial and mechanical challenges associated with storing the airfoil profiles within the maximum allowable CanSat dimensions.
+
+The external structure evolved significantly throughout the development process in order to satisfy the dimensional constraints established by the PEU World CanSat 2025 competition while maintaining a lightweight and manufacturable architecture.
+
+To address these constraints, the final structural design implemented a deployable external architecture that allowed the airfoil profiles to remain folded during launch and deployment operations. This solution enabled compliance with competition dimensional regulations while significantly improving aerodynamic deployment capabilities during descent.
+
+Additionally, the redesign focused heavily on mass reduction through:
+- Lightweight panel optimization
+- Reduced material usage
+- Simplified mechanical interfaces
+- Additive manufacturing-oriented components
+
+The resulting structure achieved a balance between:
+- Mechanical rigidity
+- Aerodynamic functionality
+- Manufacturability
+- Internal subsystem integration
+- Competition compliance
+
+while maintaining a final system mass below the competition threshold.
 <table align="center">
   <tr>
     <td align="center">
