@@ -357,6 +357,23 @@ Manufacturing autorotation components.
 <p align="center">
 Manufacturing first external structure concept.
 </p>
+
+<p align="center">
+  <img src="Evidencia.jpg" width="400"/>
+</p>
+
+<p align="center">
+Weight full integration.
+</p>
+
+ <p align="center">
+  <img src="Captura de pantalla 2026-05-28 124907.jpg" width="400"/>
+</p>
+
+<p align="center">
+Final integration.
+</p>
+ 
  
 
 
